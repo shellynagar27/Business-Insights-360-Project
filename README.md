@@ -7,5 +7,5 @@
    * MySQL
    * [Freepik](https://www.freepik.com/)
    * [flaticon](https://www.flaticon.com/)
-   * [Coolrs](https://www.figma.com/)
-   * [Figma](https://coolors.co/palettes/trending)
+   * [Figma](https://www.figma.com/)
+   * [Coolors](https://coolors.co/palettes/trending)
