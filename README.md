@@ -5,7 +5,7 @@
 ## Tools Used:
    * Power BI
    * MySQL
-   * Freepik
-   * flaticon
-   * Coolrs
-   * Figma
+   * [Freepik](https://www.freepik.com/)
+   * [flaticon](https://www.flaticon.com/)
+   * [Coolrs](https://www.figma.com/)
+   * [Figma](https://coolors.co/palettes/trending)
