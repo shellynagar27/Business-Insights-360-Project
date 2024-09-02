@@ -1,12 +1,86 @@
 # AtliQ-Hardware-Business-Insights-360-Project
+I built this project by following the [Codebasics PowerBi Course](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
 ## Problem Statement
-   Objective was to reduce reliance on Excel files for business insights and identifying factors contributing to a sales decline in Latin America.
-   Task was to develop interactive dashboards for functional teams—finance, sales, marketing, supply chain—and an executive summary dashboard.
+   AtliQ Hardware has experienced rapid growth in recent years and decided to implement data analytics using Power BI for the first time to outpace competitors and make data-driven decisions. This project aims to address stakeholders' questions across finance, sales, marketing, and supply chain aspects.
+## Dataset Understanding
+Dataset has two type of tables:
+   * Dimension Tables: Data is mostly statics and consist unique values
+   * Fact Table: Store transactions
+### MySQL Data Source
+#### gdb041
+
+###### dim_customer
+- **Distinct Markets**: 27 (e.g., India, USA, Spain)
+- **Distinct Customers**: 75 across the markets
+- **Types of Platforms**:
+  - Brick & Mortar: Physical/offline stores
+  - E-commerce: Online stores (e.g., Amazon, Flipkart)
+- **Channels**:
+  - Retailer
+  - Direct
+  - Distributors
+
+###### dim_market
+- **Distinct Markets**: 27 (e.g., India, USA, Spain)
+- **Sub-zones**: 7
+- **Regions**:
+  - APAC
+  - EU
+  - NAN
+  - LATAM
+
+##### dim_product
+- **Divisions**:
+  - P & A
+    - Peripherals
+    - Accessories
+    - PC
+      - Notebook
+      - Desktop
+  - N & S
+    - Networking
+    - Storage
+- **Categories**: 14 (e.g., Internal HDD, Keyboard)
+- **Variants**: Different variants available for the same product
+
+##### fact_forecast_monthly
+- **Purpose**: Forecasts customer needs in advance
+  - **Benefits**:
+    - Higher customer satisfaction
+    - Reduced warehouse storage costs
+- **Data**:
+  - Denormalized for analytical use
+  - Dates replaced by the start date of the month
+  - Includes forecast quantity needed by the customer
+
+##### fact_sales_monthly
+- **Purpose**: Similar to `fact_forecast_monthly`
+  - **Difference**: Last column contains sold quantity instead of forecast quantity
+
+#### gdb056
+
+##### freight_cost
+- **Details**: Travel and other costs for each market, including fiscal year
+
+##### gross_price
+- **Details**: Gross prices with product codes
+
+##### manufacturing_cost
+- **Details**: Manufacturing costs with product codes and year
+
+##### pre_invoice_deductions
+- **Details**: Pre-invoice deductions percentage for each customer, with year
+
+##### post_invoice_deductions
+- **Details**: Post-invoice and other deduction details
+### Excel files:
+   ##### **marketshare-v2022**: contains market share info as per sub_zone and product cateogory for various companies
+   ##### **targets**: net sales, net profit and gross margin target on momth-year basis for different countries
+   ##### **operating-expenses-table**: Operatinf expenses as per fiscal year for various countries
 ## Steps Taken
-   * Imported data using MySQL, Excel, and text files, and set up automated data refreshing via Power BI Services, Microsoft Teams, 
-  Gateways, and SharePoint.
-   * Validated data with MySQL, optimized queries to reduce file size and loading time, and used tools like Performance Analyzer and DAX 
-  Studio. 
+   * Imported data using MySQL, Excel, and text files, and set up automated data refreshing via Power BI Services, Microsoft Teams, Gateways, and SharePoint.
+   * Validated data with MySQL, optimized queries to reduce file size and loading time, and used tools like Performance Analyzer and DAX Studio.
+   * Created Measures as per need for creating visuals and KPI cards.
    * Created a comprehensive dashboards for various teams like finance, sale, marketing and supply chain, and for that created needed measures and tables
    * Designed an executive dashboard showcasing top customers/products, financial trends, market positioning, and competitor analysis.
    * Utilized "What-If" parameters for dynamic target setting and learned the significance of UAT and stakeholder mapping
@@ -19,12 +93,29 @@
    * Learned new terms and their use case like forecast accuracy, net error, absolute error, ytd, ytg and landing estimate
    * Built an understanding of important factors and KPIs for different teams like finance, sales, marketing, supply chain and executive view.
    * Learned meaning of query folding with practical example.
+   * Publishing of Report on Power BI Services, setting up of personal gateway for automatic data refresh from MySQL and usage of Microsoft Share Point for automatice refresh of other types of files like-Excel & CSV
+## Features
+   * Info and Support Page
+   * Use of Bookmark Buttons to toggle between visuals
+   * Usage of Tooltips for more better understanding
+   * Slicer to compare various parameters based on Last year and Targetted Value
+   * Usage of various symbols and conditioanl formatting for better data understanding
+## Dashboard Contain Following Pages:
+   * Home
+   * Info
+   * Support
+   * Finance View
+   * Sales View
+   * Marketing View
+   * Executive View
+## Designing of Dashboards:
+   Dashboards are designed as per the mocks and with suitable adjustments to catter various visualization needs.
 ## Outcome
-Delivered a comprehensive understanding of the business's market standing, identified focus areas for optimization, highlighted underperforming 
-customers, and provided year-wise financial insights, aiding in better inventory planning and performance tracking.
+Delivered a comprehensive understanding of the business's market standing, identified focus areas for optimization, highlighted underperforming customers, and provided year-wise financial insights, aiding in better inventory planning and performance tracking. Further it can be used in answering n number of why questions based on the situations.
 ## Tools Used:
    * Power BI
    * MySQL
+   * DAX Studio
    * [Freepik](https://www.freepik.com/)
    * [flaticon](https://www.flaticon.com/)
    * [Figma](https://www.figma.com/)
