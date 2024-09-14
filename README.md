@@ -93,12 +93,13 @@ Dataset has two type of tables:
    * Learned new terms and their use case like forecast accuracy, net error, absolute error, ytd, ytg and landing estimate
    * Built an understanding of important factors and KPIs for different teams like finance, sales, marketing, supply chain and executive view.
    * Learned meaning of query folding with practical example.
+   * Learned about some new features like field parametes, new card visuals etc.
    * Publishing of Report on Power BI Services, setting up of personal gateway for automatic data refresh from MySQL and usage of Microsoft Share Point for automatice refresh of other types of files like-Excel & CSV
 ## Features
    * Info and Support Page
    * Use of Bookmark Buttons to toggle between visuals
    * Usage of Tooltips for more better understanding
-   * Slicer to compare various parameters based on Last year and Targetted Value
+   * Slicer to compare various parameters based on Last year and Targeted Value
    * Usage of various symbols and conditioanl formatting for better data understanding
 ## Dashboard Contain Following Pages:
    * Home
