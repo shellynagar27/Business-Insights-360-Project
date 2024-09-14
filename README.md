@@ -1,5 +1,9 @@
 # AtliQ-Hardware-Business-Insights-360-Project
 I built this project by following the [Codebasics PowerBi Course](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
+## Live Dashboard Link:
+   - **[Business Insights 360 (older Version)](https://app.powerbi.com/view?r=eyJrIjoiYjg5MzAwZDAtN2VjZi00ZTRlLWExOTItOTFlNjFkODE0NjRlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=a6526f176bdc85783e3a
+)
+   - **[Business Insights 360 2.0 (new Version)](https://app.powerbi.com/view?r=eyJrIjoiOWYzZGNjNmUtZmEyMS00ZmU1LThlNDUtNjhhOWJmMjMyM2ZiIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=c5dd4a35405ee38145b0)
 ## Problem Statement
    AtliQ Hardware has experienced rapid growth in recent years and decided to implement data analytics using Power BI for the first time to outpace competitors and make data-driven decisions. This project aims to address stakeholders' questions across finance, sales, marketing, and supply chain aspects.
 ## Dataset Understanding
@@ -83,17 +87,16 @@ Dataset has two type of tables:
    * Created Measures as per need for creating visuals and KPI cards.
    * Created a comprehensive dashboards for various teams like finance, sale, marketing and supply chain, and for that created needed measures and tables
    * Designed an executive dashboard showcasing top customers/products, financial trends, market positioning, and competitor analysis.
-   * Utilized "What-If" parameters for dynamic target setting and learned the significance of UAT and stakeholder mapping
+   * Utilized field parametes for dynamic target setting and learned the significance of UAT and stakeholder mapping
 ## Key learnings
    * Learned OLTP & OLAP concepts, data warehousing, star and snowflake schemas, and query folding.
    * Mastered new DAX functions (e.g., ALLNOBLANKROWS, ABS, SWITCH, FILTER, HASONEVALUE) and applied them in Power BI.
    * Learned concepts of Project charter, User Acceptance Testing, and Stakeholdr Mapping and their importance
    * Understand the concept of star and snowflakes schema and need of dimension table
-   * Learned new features of Power BI like KPI cards, conditional formatting, Ribbon chart, water fall chart etc.
+   * Learned new features of Power BI like new card visual, conditional formatting, Ribbon chart, water fall chart etc.
    * Learned new terms and their use case like forecast accuracy, net error, absolute error, ytd, ytg and landing estimate
    * Built an understanding of important factors and KPIs for different teams like finance, sales, marketing, supply chain and executive view.
    * Learned meaning of query folding with practical example.
-   * Learned about some new features like field parametes, new card visuals etc.
    * Publishing of Report on Power BI Services, setting up of personal gateway for automatic data refresh from MySQL and usage of Microsoft Share Point for automatice refresh of other types of files like-Excel & CSV
 ## Features
    * Info and Support Page
