@@ -1,9 +1,9 @@
 # AtliQ-Hardware-Business-Insights-360-Project
 I built this project by following the [Codebasics PowerBi Course](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
 ## Live Dashboard Link:
-   -**[Business Insights 360 (older Version (https://app.powerbi.com/viewr=eyJrIjoiYjg5MzAwZDAtN2VjZi00ZTRlLWExOTItOTFlNjFkODE0NjRlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=a6526f176bdc85783e3a
+   - [Business Insights 360 (older Version)] (https://app.powerbi.com/viewr=eyJrIjoiYjg5MzAwZDAtN2VjZi00ZTRlLWExOTItOTFlNjFkODE0NjRlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=a6526f176bdc85783e3a
 )
--**[Business Insights 360 2.0 (new Version)](https://app.powerbi.com/view?r=eyJrIjoiOWYzZGNjNmUtZmEyMS00ZmU1LThlNDUtNjhhOWJmMjMyM2ZiIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=c5dd4a35405ee38145b0)
+   - [Business Insights 360 2.0 (new Version)](https://app.powerbi.com/view?r=eyJrIjoiOWYzZGNjNmUtZmEyMS00ZmU1LThlNDUtNjhhOWJmMjMyM2ZiIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=c5dd4a35405ee38145b0)
 ## Problem Statement
    AtliQ Hardware has experienced rapid growth in recent years and decided to implement data analytics using Power BI for the first time to outpace competitors and make data-driven decisions. This project aims to address stakeholders' questions across finance, sales, marketing, and supply chain aspects.
 ## Dataset Understanding
