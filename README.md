@@ -3,6 +3,7 @@ I built this project by following the [Codebasics PowerBi Course](https://codeba
 ## Live Dashboard Link:
    - [Business Insights 360 (older Version)](https://app.powerbi.com/view?r=eyJrIjoiYjg5MzAwZDAtN2VjZi00ZTRlLWExOTItOTFlNjFkODE0NjRlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=a6526f176bdc85783e3a)
    - [Business Insights 360 2.0 (new Version)](https://app.powerbi.com/view?r=eyJrIjoiOWYzZGNjNmUtZmEyMS00ZmU1LThlNDUtNjhhOWJmMjMyM2ZiIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&embedImagePlaceholder=true&pageName=c5dd4a35405ee38145b0)
+   - [Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7240827643636391936/)
 ## Problem Statement
    AtliQ Hardware has experienced rapid growth in recent years and decided to implement data analytics using Power BI for the first time to outpace competitors and make data-driven decisions. This project aims to address stakeholders' questions across finance, sales, marketing, and supply chain aspects.
 ## Dataset Understanding
@@ -80,6 +81,9 @@ Dataset has two type of tables:
    ##### **marketshare-v2022**: contains market share info as per sub_zone and product cateogory for various companies
    ##### **targets**: net sales, net profit and gross margin target on momth-year basis for different countries
    ##### **operating-expenses-table**: Operatinf expenses as per fiscal year for various countries
+## Data Model
+![Screenshot 2024-09-20 235340](https://github.com/user-attachments/assets/a8fbccf4-0420-4f7a-b036-aa3d63fad849)
+
 ## Steps Taken
    * Imported data using MySQL, Excel, and text files, and set up automated data refreshing via Power BI Services, Microsoft Teams, Gateways, and SharePoint.
    * Validated data with MySQL, optimized queries to reduce file size and loading time, and used tools like Performance Analyzer and DAX Studio.
