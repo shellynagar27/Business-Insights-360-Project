@@ -38,7 +38,7 @@ Dataset has two type of tables:
   - P & A
     - Peripherals
     - Accessories
-    - PC
+  - PC
       - Notebook
       - Desktop
   - N & S
