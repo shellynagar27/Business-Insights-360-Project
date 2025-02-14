@@ -94,7 +94,7 @@ Dataset has two type of tables:
 ## Key learnings
    * Got basic undestanding of OLTP & OLAP concepts, data warehousing, star and snowflake schemas, and query folding.
    * Mastered new DAX functions (e.g., ALLNOBLANKROWS, ABS, SWITCH, FILTER, HASONEVALUE) and applied them in Power BI.
-   * Learned concepts of Project charter, User Acceptance Testing, and Stakeholdr Mapping and their importance
+   * Learned concepts of Project charter, User Acceptance Testing, and Stakeholder Mapping and their importance
    * Understand the concept of star and snowflakes schema and need of dimension table
    * Learned new features of Power BI like new card visual, conditional formatting, Ribbon chart, water fall chart etc.
    * Learned new terms and their use case like forecast accuracy, net error, absolute error, ytd, ytg and landing estimate
