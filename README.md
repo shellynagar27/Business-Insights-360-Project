@@ -92,7 +92,7 @@ Dataset has two type of tables:
    * Designed an executive dashboard showcasing top customers/products, financial trends, market positioning, and competitor analysis.
    * Utilized field parametes for dynamic target setting and learned the significance of UAT (User Acceptance Testing) and stakeholder mapping
 ## Key learnings
-   * Learned OLTP & OLAP concepts, data warehousing, star and snowflake schemas, and query folding.
+   * Got basic undestanding of OLTP & OLAP concepts, data warehousing, star and snowflake schemas, and query folding.
    * Mastered new DAX functions (e.g., ALLNOBLANKROWS, ABS, SWITCH, FILTER, HASONEVALUE) and applied them in Power BI.
    * Learned concepts of Project charter, User Acceptance Testing, and Stakeholdr Mapping and their importance
    * Understand the concept of star and snowflakes schema and need of dimension table
