@@ -90,7 +90,7 @@ Dataset has two type of tables:
    * Created Measures as per need for creating visuals and KPI cards.
    * Created a comprehensive dashboards for various teams like finance, sale, marketing and supply chain, and for that created needed measures and tables
    * Designed an executive dashboard showcasing top customers/products, financial trends, market positioning, and competitor analysis.
-   * Utilized field parametes for dynamic target setting and learned the significance of UAT and stakeholder mapping
+   * Utilized field parametes for dynamic target setting and learned the significance of UAT (User Acceptance Testing) and stakeholder mapping
 ## Key learnings
    * Learned OLTP & OLAP concepts, data warehousing, star and snowflake schemas, and query folding.
    * Mastered new DAX functions (e.g., ALLNOBLANKROWS, ABS, SWITCH, FILTER, HASONEVALUE) and applied them in Power BI.
