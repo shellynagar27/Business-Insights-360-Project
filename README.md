@@ -13,7 +13,7 @@ Dataset has two type of tables:
 ### MySQL Data Source
 #### gdb041
 
-###### dim_customer
+##### dim_customer
 - **Distinct Markets**: 27 (e.g., India, USA, Spain)
 - **Distinct Customers**: 75 across the markets
 - **Types of Platforms**:
@@ -24,7 +24,7 @@ Dataset has two type of tables:
   - Direct
   - Distributors
 
-###### dim_market
+##### dim_market
 - **Distinct Markets**: 27 (e.g., India, USA, Spain)
 - **Sub-zones**: 7
 - **Regions**:
